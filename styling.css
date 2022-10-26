@@ -1,0 +1,375 @@
+@import url('http://fonts.cdnfonts.com/css/satisfy');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(218, 218, 218), rgb(157, 157, 157));
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.test {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+
+
+.test .hero-img {
+    position: absolute;
+    height: 100%;
+    width: 100%
+}
+
+.title-1 {
+    position: absolute;
+    color: white;
+    font-family: 'Satisfy', sans-serif;
+    top: 20%;
+    left: 43%;
+
+}
+
+.title-2 {
+    position: absolute;
+    color: white;
+    font-family: 'Satisfy', sans-serif;
+    top: 27%;
+    left: 46%;
+}
+
+h2 {
+    padding: 20px;
+    text-align: center;
+    color: #F39E21;
+    font-family: 'Satisfy', sans-serif;
+    font-size: 2.5em;
+}
+
+
+.main p {
+    text-align: center;
+    padding: 0 31rem;
+}
+
+.main span {
+    font-weight: bolder;
+}
+
+.nav-links {
+    color: rgb(255, 255, 255);
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin-right: 7%;
+}
+
+.nav-links a {
+    color: #fff;
+}
+
+header {
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(0, 0, 0);
+    z-index: 1;
+}
+
+.logo img {
+    width: 70px;
+}
+
+
+.food {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.food img {
+    cursor: pointer;
+    border: 2px solid #000;
+    width: 20rem;
+    height: 20rem;
+}
+
+footer {
+    padding: 50px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(120, 120, 120)
+}
+
+footer p {
+    width: fit-content;
+}
+
+div.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+div.about div.kitchen {
+    display: flex;
+    flex-direction: column;
+    height: 1083px;
+    justify-content: space-around;
+}
+
+div.about div.kitchen img {
+    width: 100%;
+}
+
+
+div.about div.kitchen p {
+    line-height: 1.6;
+    text-align: center;
+    padding-bottom: 1rem;
+
+}
+
+div.about div.kitchen div p {
+    padding-bottom: 1rem;
+    text-align: left;
+    font-size: large;
+}
+
+div.kitchen span {
+    font-weight: bolder;
+}
+
+.fish img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.fish {
+    height: 700px;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* background-color: red; */
+    justify-content: space-around;
+    gap: 5rem;
+    padding: 1rem 5rem;
+}
+
+.contact-form input,
+textarea {
+    width: 20rem;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: .5rem;
+
+}
+
+.contact-form .left {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    /* background-color: blue; */
+
+}
+
+.contact-form .left .full-name {
+    display: flex;
+    justify-content: space-between;
+    gap: .5rem;
+}
+
+.contact-form .left .full-name div {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.contact-form .right {
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.contact-form .right textarea {
+    width: 20rem;
+
+}
+
+.contact-form .left .Email {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.contact-form .left .Email input {
+    width: 100%;
+}
+
+.contact-form input,
+textarea {
+    background-color: rgb(236, 236, 236);
+}
+
+a:hover,
+a:active,
+.filter li:hover a {
+    color: #F39E21;
+}
+
+a.home,
+a.menu,
+a.about,
+a.contact {
+    color: #F39E21 !important;
+}
+
+.filter {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 3rem;
+    margin-top: 1.32rem;
+}
+
+.filter li {
+    background-color: #9C9191;
+    padding: .60rem 1.2rem;
+    font-family: 'satisfy';
+    cursor: pointer;
+    border-radius: .5rem;
+}
+
+.plat img {
+    width: 7%;
+    border-radius: 8px;
+}
+
+button {
+    background-color: #000;
+    font-weight: bolder;
+    color: #F39E21;
+    border-radius: 5px;
+    width: fit-content;
+    padding: .2rem .5rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.plat {
+    display: flex;
+    padding: 10px;
+    background-color: #9C9191;
+    margin: 10px;
+    border-radius: 20px;
+    justify-content: center;
+    gap: 2rem;
+    position: relative;
+
+}
+
+.plat div {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+}
+
+.plat div h4 {
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+.plat div strong {
+    font-size: 2rem;
+}
+
+
+
+.plat div button {
+    align-self: flex-end;
+    position: absolute;
+    bottom: 10%;
+    right: 1rem;
+}
+
+.plat img {
+    width: 40%;
+}
+
+.all-plat {
+    margin: 3rem;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    border-radius: 8px;
+}
+
+#P {
+    font-size: large;
+}
+
+.alll-plat {
+    position: relative;
+}
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: space-between;
+    background-color: #75757584;
+    height: 100%;
+    width: 25%;
+    top: 0;
+    right: 0;
+    border-radius: 2rem;
+    margin-right: 1rem;
+
+
+}
+
+.p-cart {
+    background-color: rgb(202, 202, 202);
+    height: 70%;
+
+}
+.total{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    font-size: 50px;
+    justify-self: center;
+    margin-bottom: 1.2rem;
+} 
+.total strong{
+    padding: 2px;
+    background-color: rgb(228, 228, 228);
+    border-radius: 1rem;
+}
