@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <link href="./styling.css" rel="stylesheet" />
+    <link href="./media.css" rel="stylesheet" />
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sushi Hitaki</title>
@@ -13,13 +15,24 @@
 <body>
 
     <header id="#test">
-        <a href="index.html"><div class="logo"><img src="media/logo/logo.png" alt="Sushi With Hitaki"></div></a>
+        <span class="menu-icon">
+            <img src="media/img/menu.png" alt="burger">
+        </span>
+        <a href="index.html">
+            <div class="logo"><img src="media/logo/logo.png" alt="Sushi With Hitaki"></div>
+        </a>
+
+
         <ul class="nav-links">
-            <li><a class ="home" href="#">Home</a></li>
+            <li><a class="home" href="#">Home</a></li>
             <li><a href="Menu.html">Menu</a></li>
             <li><a href="About.html">About</a></li>
             <li><a href="Contact.html">Contact</a></li>
+            <span class="close"><img src="media/logo/Close.png" alt="close menu"></span>
         </ul>
+
+
+
     </header>
     <div class="test">
         <img class="hero-img" src="./media/img/hero-img.png" alt="">
@@ -27,31 +40,33 @@
         <h3 class="title-2">Resterant Japonaise</h3>
     </div>
     <div class="main">
-        <h2>Our Menu</h2>
-        <p>we offer you the best and finest food (Sushi ,Ramen ,Oden ,Tofu,Curry Rice......)located in the most
+        <h2 id="our" >Our Menu</h2>
+        <p class="our-menu-desc">we offer you the best and finest food (Sushi ,Ramen ,Oden ,Tofu,Curry Rice......)located in the most
             luxurious restaurants in the country with high quality and at an affordable price.
             <span>Check our menu just in click</span>
         </p>
     </div>
     <div class="food">
-         
-            <a href="Menu.html">
-                <img src="media/img/What are the Orange Eggs on Sushi_.jfif" alt="Orange Eggs On Sushi"> 
-            </a>
-        
-            <a href="Menu.html">
-                <img src="media/img/30 Minute Spicy Miso Chicken Katsu Ramen_.jfif " alt="Spicy Miso Chicken Katsu Ramen">
-            </a>
-        
-            <a href="Menu.html">
-                <img src="media/img/KARE-RAISU (CURRY RICE) (1).jfif" alt="KARE RAISU"> 
-            </a>
+
+        <a href="Menu.html">
+            <img src="media/img/What are the Orange Eggs on Sushi_.jfif" alt="Orange Eggs On Sushi">
+        </a>
+
+        <a href="Menu.html">
+            <img src="media/img/30 Minute Spicy Miso Chicken Katsu Ramen_.jfif " alt="Spicy Miso Chicken Katsu Ramen">
+        </a>
+
+        <a href="Menu.html">
+            <img src="media/img/KARE-RAISU (CURRY RICE) (1).jfif" alt="KARE RAISU">
+        </a>
     </div>
-       
+
     <footer id="footer" class="footer">
         <p>&copy;copyright 2022. designed and developed by <a href="https://www.Anas NAK.com/">AnasNAK</a></p>
     </footer>
 
+    <script src="./style.js">
+    </script>
 </body>
 
 </html>

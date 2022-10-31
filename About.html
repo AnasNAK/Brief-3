@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <link href="./styling.css" rel="stylesheet" />
+    <link href="./media.css" rel="stylesheet" />
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sushi Hitaki</title>
@@ -13,12 +15,20 @@
 <body>
 
     <header id="#test">
-        <a href="index.html"><div class="logo"><img src="media/logo/logo.png" alt="Sushi With Hitaki"></div></a>
+        <span class="menu-icon">
+            <img src="media/img/menu.png" alt="burger">
+        </span>
+        <a href="index.html">
+            <div class="logo"><img src="media/logo/logo.png" alt="Sushi With Hitaki"></div>
+        </a>
+
+
         <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
+            <li><a  href="index.html">Home</a></li>
             <li><a href="Menu.html">Menu</a></li>
-            <li><a class="about"href="#">About</a></li>
+            <li><a class="about" href="#">About</a></li>
             <li><a href="Contact.html">Contact</a></li>
+            <span class="close"><img src="media/logo/Close.png" alt="close menu"></span>
         </ul>
     </header>
     <h2>About Us</h2>
@@ -42,14 +52,15 @@
                 <p> Le restaurant vous accueil dans un cadre chaleureux et possède une décoration soignée.</p>
             </div>
             <img src="media/img/Coolhuntermx - Rokai_ Un pedazo de Japón en D_F_.jfif" alt="chef in kitchen">
-            <p id="P">For more info <a href="Contact.html"><span>Contact Us</span></a> </p>
+            <p id="P">For more info <a href="Contact.html"><span class="contactUs">Contact Us</span></a> </p>
 
         </div>
     </div>
     <footer id="footer" class="footer">
         <p>&copy;copyright 2022. designed and developed by <a href="https://www.Anas NAK.com/">AnasNAK</a></p>
     </footer>
-
+    <script src="./style.js">
+    </script>
 </body>
 
 </html>

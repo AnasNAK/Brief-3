@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <link href="./styling.css" rel="stylesheet" />
+    <link href="./media.css" rel="stylesheet" />
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sushi Hitaki</title>
@@ -13,42 +15,33 @@
 <body>
 
     <header id="#test">
+        <span class="menu-icon">
+            <img src="media/img/menu.png" alt="burger">
+        </span>
         <a href="index.html">
             <div class="logo"><img src="media/logo/logo.png" alt="Sushi With Hitaki"></div>
         </a>
+
+
         <ul class="nav-links">
             <li><a href="index.html">Home</a></li>
-            <li><a class="menu" href=#">Menu</a></li>
+            <li><a class="menu" href="#">Menu</a></li>
             <li><a href="About.html">About</a></li>
             <li><a href="Contact.html">Contact</a></li>
+            <span class="close"><img src="media/logo/Close.png" alt="close menu"></span>
         </ul>
     </header>
-    <h2>Menu</h2>
-    <ul class="filter">
-        <li><a href="">ALL</a> </li>
-        <li><a href="">SUSHI</a> </li>
-        <li><a href="">RAMEN</a> </li>
-        <li><a href="">ODEN</a> </li>
+    <h2>Muenu</h2>
+   <div class="filter">
+    <button id="all">ALL</button>
+    <button id="Sushi">SUSHI</button>
+    <button id="Ramen">RAMEN</button>
+    <button id="Oden">ODEN</button>
+   </div>
+    
+    <div class="alll-plat" id="All">
+        <div class="sushi" id="Sushi">
 
-    </ul>
-    <div class="alll-plat">
-        <div class="all-plat">
-            <div class="plat">
-                <img src="media/img/Nigiri Sushi fra My Little Kitchen _ Oppskrift på laks.jfif" alt="Nigiri Sushi">
-                <div>
-                    <h4>Nigiri Sushi</h4>
-                    <strong>22$</strong>
-                    <button>Buy now</button>
-                </div>
-            </div>
-            <div class="plat">
-                <img src="media/img/Nigiri Sushi fra My Little Kitchen _ Oppskrift på laks.jfif" alt="Nigiri Sushi">
-                <div>
-                    <h4>Nigiri Sushi</h4>
-                    <strong>22$</strong>
-                    <button>Buy now</button>
-                </div>
-            </div>
             <div class="plat">
                 <img src="media/img/Nigiri Sushi fra My Little Kitchen _ Oppskrift på laks.jfif" alt="Nigiri Sushi">
                 <div>
@@ -58,61 +51,79 @@
                 </div>
             </div>
 
-        </div>
-        <div class="all-plat">
-            <div class="plat">
-                <img src="media/img/Nigiri Sushi fra My Little Kitchen _ Oppskrift på laks.jfif" alt="Nigiri Sushi">
+
+            <div class="plat" >
+                <img src="media/img/sushi rolls, uramaki, food photography _ Japanese food photography, Asian food photography, Sushi recipes.jfif" alt="Uramaki">
                 <div>
-                    <h4>Nigiri Sushi</h4>
-                    <strong>22$</strong>
+                    <h4>Uramaki</h4>
+                    <strong>20$</strong>
                     <button>Buy now</button>
                 </div>
             </div>
             <div class="plat">
-                <img src="media/img/Nigiri Sushi fra My Little Kitchen _ Oppskrift på laks.jfif" alt="Nigiri Sushi">
+                <img src="media/img/How To Make Maki Rolls - Step by Step Guide • Curious Cuisiniere.png" alt="Maki">
                 <div>
-                    <h4>Nigiri Sushi</h4>
-                    <strong>22$</strong>
-                    <button>Buy now</button>
-                </div>
-            </div>
-            <div class="plat">
-                <img src="media/img/Nigiri Sushi fra My Little Kitchen _ Oppskrift på laks.jfif" alt="Nigiri Sushi">
-                <div>
-                    <h4>Nigiri Sushi</h4>
-                    <strong>22$</strong>
+                    <h4>Maki</h4>
+                    <strong>18$</strong>
                     <button>Buy now</button>
                 </div>
             </div>
 
         </div>
-        <div class="all-plat">
+        <div class="ramen " id="Ramen">
             <div class="plat">
-                <img src="media/img/Nigiri Sushi fra My Little Kitchen _ Oppskrift på laks.jfif" alt="Nigiri Sushi">
+                <img src="media/img/Vegan Shio Ramen.jfif" alt="SHIO">
                 <div>
-                    <h4>Nigiri Sushi</h4>
-                    <strong>22$</strong>
+                    <h4>Shio</h4>
+                    <strong>13$</strong>
                     <button>Buy now</button>
                 </div>
             </div>
             <div class="plat">
-                <img src="media/img/Nigiri Sushi fra My Little Kitchen _ Oppskrift på laks.jfif" alt="Nigiri Sushi">
+                <img src="media/img/tonkotsu ramen at home - glebe kitchen.png" alt="Tonkotsu">
                 <div>
-                    <h4>Nigiri Sushi</h4>
-                    <strong>22$</strong>
+                    <h4>Tonkotsu</h4>
+                    <strong>17$</strong>
                     <button>Buy now</button>
                 </div>
             </div>
             <div class="plat">
-                <img src="media/img/Nigiri Sushi fra My Little Kitchen _ Oppskrift på laks.jfif" alt="Nigiri Sushi">
+                <img src="media/img/Spicy Miso Tonkotsu Ramen.jfif" alt="Miso">
                 <div>
-                    <h4>Nigiri Sushi</h4>
-                    <strong>22$</strong>
+                    <h4>Miso</h4>
+                    <strong>20$</strong>
+                    <button>Buy now</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="oden " id="Oden">
+            <div class="plat">
+                <img src="media/img/KARE-RAISU (CURRY RICE).jfif" alt="Curry Rice">
+                <div>
+                    <h4>Curry Rice</h4>
+                    <strong>24$</strong>
+                    <button>Buy now</button>
+                </div>
+            </div>
+            <div class="plat">
+                <img src="media/img/Curry Loco Moco w_ Hambagu Steak.jfif" alt="Hambagu">
+                <div>
+                    <h4>Hambagu</h4>
+                    <strong>25$</strong>
+                    <button>Buy now</button>
+                </div>
+            </div>
+            <div class="plat">
+                <img src="media/img/30 Minute Spicy Miso Chicken Katsu Ramen_.jfif" alt="Katsu">
+                <div>
+                    <h4>Katsu</h4>
+                    <strong>30$</strong>
                     <button>Buy now</button>
                 </div>
             </div>
         </div>
-        <div class="cart"> 
+        <div class="cart">
             <h2>CART</h2>
             <div class="p-cart">
                 <h3>X2 Nigiri Sushi</h3>
@@ -122,11 +133,13 @@
                 <h5>total</h5>
             </div>
         </div>
-       
+
     </div>
 
     <footer id="footer" class="footer">
         <p>&copy;copyright 2022. designed and developed by <a href="https://www.Anas NAK.com/">AnasNAK</a></p>
+        <script src="./style.js">
+        </script>
     </footer>
 
 </body>
