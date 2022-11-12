@@ -316,9 +316,11 @@ button {
     background-color: #9C9191;
     margin: 10px;
     border-radius: 20px;
-    justify-content: center;
+    justify-content: initial;
     gap: 4rem;
     position: relative;
+    width: 308px;
+
 
 }
 
