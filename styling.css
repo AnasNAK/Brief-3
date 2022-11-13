@@ -406,3 +406,13 @@ button {
 .our-menu-desc{
     color: #fff;
 }
+.ur-cart{
+    display: flex;
+    font-size: xx-large;
+    gap: 4rem;
+    
+
+}
+.p-cart{
+    overflow-y: scroll;
+}
