@@ -1,4 +1,4 @@
-@media screen and (max-width:350px) {
+@media screen and (max-width:412px) {
     header {
         padding: 10px 25px;
         display: flex;
@@ -288,12 +288,12 @@
         color: #F39E21 !important;
     }
 
-    /* .filter {
-        display: flex;
-        justify-content: center;
-        list-style-type: none;
-        gap: 3rem;
-        margin-top: 1.32rem; */
+     .filter {
+        /* display: flex; */
+        /* justify-content: center; */
+        /* list-style-type: none; */
+        gap: 1rem;
+        /* margin-top: 1.32rem;  */
 
     /* .filter li {
         background-color: #9C9191;
@@ -301,9 +301,9 @@
         font-family: 'satisfy';
         cursor: pointer;
         border-radius: .5rem;
-    } */
+    } */}
 
-    .plat img {
+      .plat img {
         width: 7%;
         border-radius: 8px;
     }
@@ -319,7 +319,7 @@
         cursor: pointer;
     }
 
-    .plat {
+   .plat {
         display: flex;
         padding: 10px;
         background-color: #9C9191;
@@ -328,7 +328,6 @@
         justify-content: center;
         gap: 2rem;
         position: relative;
-
     }
 
     .plat div {
@@ -413,5 +412,3 @@
         background-color: rgb(228, 228, 228);
         border-radius: 1rem;
     }
-
-}
