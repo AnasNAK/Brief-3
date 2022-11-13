@@ -16,35 +16,48 @@ close.addEventListener('click' , function(){
 
 
 // select
-let makiClass = document.querySelector(".sushi");
-let nigiriClass = document.querySelector(".ramen");
-let soupeClass = document.querySelector(".oden");
-let btnTous = document.getElementById('all');
-let btnMaki  = document.getElementById('Sushi');
-let btnNigiri = document.getElementById('Ramen');
-let btnSoupe = document.getElementById('Oden');
+let sushiClass = document.querySelector(".sushi");
+let ramenClass = document.querySelector(".ramen");
+let odenClass = document.querySelector(".oden");
+let btnall = document.getElementById('all');
+let btnSushi  = document.getElementById('Sushi');
+let btnRamen = document.getElementById('Ramen');
+let btnOden = document.getElementById('Oden');
 
-btnTous.addEventListener('click',function(){
-    makiClass.style.display="flex";
-    nigiriClass.style.display="flex";
-    soupeClass.style.display="flex";
-
-});
-btnMaki.addEventListener('click',function(){
-    makiClass.style.display="flex";
-    nigiriClass.style.display="none";
-    soupeClass.style.display="none";
+btnall.addEventListener('click',function(){
+    sushiClass.style.display="flex";
+    ramenClass.style.display="flex";
+    odenClass.style.display="flex";
 
 });
-btnSoupe.addEventListener('click',function(){
-    makiClass.style.display="none";
-    nigiriClass.style.display="none";
-    soupeClass.style.display="flex";
+btnSushi.addEventListener('click',function(){
+    sushiClass.style.display="flex";
+    ramenClass.style.display="none";
+    odenClass.style.display="none";
 
 });
-btnNigiri.addEventListener('click',function(){
-    makiClass.style.display="none";
-    nigiriClass.style.display="flex";
-    soupeClass.style.display="none";
+btnOden.addEventListener('click',function(){
+    sushiClass.style.display="none";
+    ramenClass.style.display="none";
+    odenClass.style.display="flex";
 
 });
+btnRamen.addEventListener('click',function(){
+    sushiClass.style.display="none";
+    ramenClass.style.display="flex";
+    odenClass.style.display="none";
+
+});
+
+
+
+//caart
+let arrTotal = [];
+var somme = 0 ;
+let eventclickadd = document.querySelectorAll('.buy');
+let parentcart = document.querySelectorAll('.p-cart');
+
+
+
+
+
