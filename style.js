@@ -55,9 +55,30 @@ btnRamen.addEventListener('click',function(){
 let arrTotal = [];
 var somme = 0 ;
 let eventclickadd = document.querySelectorAll('.buy');
-let parentcart = document.querySelectorAll('.p-cart');
+let parentcart = document.querySelector('.p-cart');
 
+let idt = document.getElementById('idt');
 
+eventclickadd.forEach(function(element){
+    element.addEventListener('click' ,function(e) {
+        let obj = e.target.parentNode;
+        let titreObj = obj.childNodes[1].innerText;
+        let prixObj = obj.childNodes[3].innerText
+        console.log(titreObj);
+        console.log(prixObj);
+        let total = document.getElementById('price');
+        let div = document.createElement("div");
+        div.innerHTML=`<div class ="ur-cart">
+       <div class ="name-Obj">${titreObj}</div>
+       <div class ="price-Obj">${prixObj }</div>
+        </div>`;
+        idt.appendChild(div);
+        arrTotal.push(parseInt(prixObj));
+        somme = arrTotal.reduce((p, c)=>p+c, 0) ;
+        total.innerHTML=somme; 
+    });
+
+});
 
 
 
