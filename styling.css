@@ -6,7 +6,10 @@
     box-sizing: border-box;
 
 }
+.msa7{
+    width:30px;
 
+}
 body {
     background-image: linear-gradient(to right, rgb(40, 40, 39), rgb(0, 0, 0));
 }
