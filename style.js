@@ -62,6 +62,7 @@ let idt = document.getElementById('idt');
 eventclickadd.forEach(function(element){
     element.addEventListener('click' ,function(e) {
         let obj = e.target.parentNode;
+        console.log(obj.childNodes);
         let titreObj = obj.childNodes[1].innerText;
         let prixObj = obj.childNodes[3].innerText
         console.log(titreObj);
