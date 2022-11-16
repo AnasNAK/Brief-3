@@ -15,7 +15,7 @@
 
     .nav-links {
 
-        display: block !important;
+        display: block;
         min-width: 70vw;
         height: 100vh;
         background-color: #000;
@@ -106,7 +106,7 @@
         font-weight: bolder;
     }
 
-    .nav-links {
+    /* .nav-links {
         color: rgb(255, 255, 255);
         list-style-type: none;
         display: flex;
@@ -115,7 +115,7 @@
         width: 30%;
         margin-right: 7%;
         display: none;
-    }
+    } */
 
     .nav-links a {
         color: #fff;
