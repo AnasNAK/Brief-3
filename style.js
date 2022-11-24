@@ -23,29 +23,34 @@ let btnall = document.getElementById('all');
 let btnSushi = document.getElementById('Sushi');
 let btnRamen = document.getElementById('Ramen');
 let btnOden = document.getElementById('Oden');
+let cart = document.getElementById('cart');
 
 btnall.addEventListener('click', function () {
     sushiClass.style.display = "flex";
     ramenClass.style.display = "flex";
     odenClass.style.display = "flex";
+    cart.style="height: 100%;top: 62%; "
 
 });
 btnSushi.addEventListener('click', function () {
     sushiClass.style.display = "flex";
     ramenClass.style.display = "none";
     odenClass.style.display = "none";
+    cart.style="height: 53%;top: 41%; "
 
 });
 btnOden.addEventListener('click', function () {
     sushiClass.style.display = "none";
     ramenClass.style.display = "none";
     odenClass.style.display = "flex";
+    cart.style="height: 53%;top: 41%;"
 
 });
 btnRamen.addEventListener('click', function () {
     sushiClass.style.display = "none";
     ramenClass.style.display = "flex";
     odenClass.style.display = "none";
+    cart.style="height: 53%; top: 41%;"
 
 });
 
@@ -80,6 +85,13 @@ eventclickadd.forEach(function (element) {
     });
 
 });
+const confirme = document.getElementById('facture'); 
+confirme.addEventListener("click", function(){
+    alert(`votre facture est ${somme}$`);
+    location.reload();
+})
+    
+
 // // remove items from carte
 // function removeCarteItem(event) {
 //     var buttonClicked = event.target;
