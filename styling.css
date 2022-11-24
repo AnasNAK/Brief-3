@@ -1,15 +1,17 @@
 /* @import url('http://fonts.cdnfonts.com/css/satisfy'); */
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 
 }
-.msa7{
+
+/* .msa7{
     width:30px;
 
-}
+} */
 body {
     background-image: linear-gradient(to right, rgb(40, 40, 39), rgb(0, 0, 0));
 }
@@ -18,13 +20,28 @@ a {
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
-.menu-icon{
+
+.menu-icon {
     display: none;
 }
-.close{
+
+.close {
     display: none;
     width: 2rem;
 }
+
+.wlcome-hero {
+    color: #ffc95e;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bolder;
+    width: 40%;
+    text-align: center;
+    font-size: x-large;
+}
+
 .test {
     width: 100%;
     height: 100vh;
@@ -62,6 +79,13 @@ h2 {
     color: #F39E21;
     font-family: 'Satisfy', sans-serif;
     font-size: 2.5em;
+}
+
+h2.contacts {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
@@ -121,7 +145,7 @@ header {
 
 footer {
     padding: 50px;
-    margin-top: 40px;
+    /* margin-top: 40px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -152,11 +176,11 @@ div.about div.kitchen img {
     width: 100%;
 }
 
-.contactUs{
+.contactUs {
     color: #fff;
 }
 
-.contactUs:hover{
+.contactUs:hover {
     color: #ff9900;
 }
 
@@ -196,6 +220,8 @@ div.kitchen span {
     justify-content: space-around;
     gap: 5rem;
     padding: 1rem 5rem;
+    position: absolute;
+    top: 40%;
 }
 
 .contact-form input,
@@ -205,6 +231,20 @@ textarea {
     border: 1px solid black;
     border-radius: .5rem;
 
+}
+
+.map {
+    width: 80%;
+    position: absolute;
+    top: 70%;
+    left: 5%;
+}
+
+h5 {
+    color: white;
+    font-size: x-large;
+    top: 90%;
+    left: 70%;
 }
 
 .contact-form .left {
@@ -260,7 +300,7 @@ textarea {
 }
 
 a:hover,
-a:active{
+a:active {
     color: #ff9900;
 }
 
@@ -270,6 +310,7 @@ a.about,
 a.contact {
     color: #F39E21 !important;
 }
+
 /* select{
     background-color: #F39E21;
     font-family: 'satisfy';
@@ -288,11 +329,12 @@ a.contact {
     margin-top: 1.32rem;
     padding: .60rem 1.2rem;
     font-family: 'satisfy';
-     /* cursor: pointer;  */
-     /* width: fit-content; */
+    /* cursor: pointer;  */
+    /* width: fit-content; */
     /* border-radius: .8rem; */
 }
-.filter button{
+
+.filter button {
     background-color: #9C9191;
     border-radius: .5rem;
 }
@@ -353,7 +395,9 @@ button {
     width: 40%;
 } */
 
-.sushi , .ramen, .oden {
+.sushi,
+.ramen,
+.oden {
     margin: 3rem;
     display: flex;
     justify-content: center;
@@ -364,6 +408,12 @@ button {
 
 #P {
     font-size: large;
+    font-size: large;
+    position: absolute;
+    top: 209%;
+    left: 71%;
+    color: white;
+    width: 21%;
 }
 
 .alll-plat {
@@ -373,6 +423,7 @@ button {
 .alll-plat img {
     width: 100px;
 }
+
 .cart {
     display: flex;
     flex-direction: column;
@@ -392,30 +443,48 @@ button {
     height: 70%;
 
 }
-.total{
+.facture:hover{
+    background-color: #000;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 1rem;
+   box-shadow: 4px 4px 1px .5px rgba(0, 0, 0, 0.2);
+}
+
+.number {
+    position: absolute;
+    top: 90%;
+    left: 70%;
+}
+
+.total {
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: space-around;
     font-size: 50px;
     justify-self: center;
     margin-bottom: 1.2rem;
-} 
-.total strong{
+}
+
+.total strong {
     padding: 2px;
     background-color: rgb(228, 228, 228);
     border-radius: 1rem;
 }
 
-.our-menu-desc{
+.our-menu-desc {
     color: #fff;
 }
-.ur-cart{
+
+.ur-cart {
     display: flex;
     font-size: xx-large;
     gap: 4rem;
-    
+
 
 }
-.p-cart{
+
+.p-cart {
     overflow-y: scroll;
 }
