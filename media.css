@@ -89,11 +89,12 @@
 
 
     h2 {
-        padding: 20px;
+        /* padding: 20px; */
         text-align: center;
         color: #F39E21;
         font-family: 'Satisfy', sans-serif;
         font-size: 2.5em;
+        /* width: 13rem; */
     }
 
 
@@ -127,9 +128,20 @@
         width: 70px;
     }
 
+    .place {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+
+    }
+
+    h2.contacts {
+        width: 13rem;
+    }
+
     .place img {
         width: 30vh;
-        padding-bottom: 176px;
+        padding-bottom: 48px;
     }
 
     .food {
@@ -173,7 +185,7 @@
     div.about div.kitchen {
         display: flex;
         flex-direction: column;
-        height: 476px;
+        height: 355px;
         justify-content: space-around;
     }
 
@@ -216,9 +228,11 @@
         align-items: flex-start;
         /* background-color: red; */
         justify-content: space-around;
-        gap: 5rem;
-        padding: 1rem 5rem;
-        margin-left: -52px;
+        gap: 1rem;
+        padding: 0;
+        margin-top: 2rem;
+        margin-left: 28px;
+        top: 26%;
     }
 
     .contact-form input,
@@ -313,6 +327,19 @@
         border-radius: 8px;
     }
 
+    .number {
+        width: 19rem;
+        left: 11%;
+        top: 100%;
+    }
+
+    .map {
+        position: relative;
+        margin: 1% 0 -10% -75px;
+        left: 39%;
+        width: 80%;
+    }
+
     button {
         background-color: #000;
         font-weight: bolder;
@@ -373,6 +400,11 @@
 
     #P {
         font-size: small;
+        text-align: center;
+        margin-top: -20%;
+        width: 72%;
+        left: 20%;
+        position: relative;
     }
 
     .alll-plat {
@@ -388,6 +420,7 @@
         left: 22px;
         width: 87%;
         top: 0;
+        overflow-y: scroll;
 
 
     }
@@ -424,5 +457,12 @@
         padding: 2px;
         background-color: rgb(228, 228, 228);
         border-radius: 1rem;
+    }
+
+    .wlcome-hero {
+        color: #ffc95e;
+        top: 32%;
+        width: 57%;
+        font-size: medium;
     }
 }
