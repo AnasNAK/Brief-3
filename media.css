@@ -12,12 +12,25 @@
     .close img {
         width: 2rem;
     }
+    .hack{
+        flex-direction: column;
+    }
+    iframe{
+        width: fit-content;
+    }
+    .nmap{
+        text-align: center;
+        margin-top: 1rem;
+    }
+   .number h5{
+    /* text-align: center; */
+   }
 
     .nav-links {
 
         display: block;
         min-width: 70vw;
-        height: 100vh;
+        height: 51vh;
         background-color: #000;
         position: absolute;
         top: 0;
@@ -135,9 +148,9 @@
 
     }
 
-    h2.contacts {
+    /* h2.contacts {
         width: 13rem;
-    }
+    } */
 
     .place img {
         width: 30vh;
@@ -161,8 +174,8 @@
     }
 
     footer {
-        padding: 50px;
-        margin-top: 40px;
+        padding: 16px;
+        margin-top: 32px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -328,6 +341,7 @@
     }
 
     .number {
+        text-align: center;
         width: 19rem;
         left: 11%;
         top: 100%;
@@ -464,5 +478,3 @@
         top: 32%;
         width: 57%;
         font-size: medium;
-    }
-}

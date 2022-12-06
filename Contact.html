@@ -10,9 +10,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sushi Hitaki</title>
     <link rel="shortcut icon" type="image/icon" href="media/logo/icon.png" />
+    <link rel="stylesheet" href="./body contact.css">
 </head>
 
-<body>
+<body class="contactUs">
 
     <header id="#test">
         <span class="menu-icon">
@@ -31,43 +32,45 @@
             <span class="close"><img src="media/logo/Close.png" alt="close menu"></span>
         </ul>
     </header>
-    <div class="fish">
-        <img src="media/img/El Pescador fish market by Konrad Knoblauch, Sihlbrugg – Switzerland.jfif" alt="fish">
-    </div>
     <h2 class="contacts">Contact Us</h2>
-    <div class="contact-form">
-        <div class="left">
-            <div class="full-name">
-                <div><label for="F">First Name</label>
-                    <input class="F" type="text" placeholder="your First Name">
+    <div class="hack">
+        <div class="contact-form">
+            <div class="left">
+                <div class="full-name">
+                    <div><label for="F">First Name</label>
+                        <input class="F" type="text" placeholder="your First Name">
+                    </div>
+                    <div>
+                        <label for="L">Last Name</label>
+                        <input class="L" type="text" placeholder="your Last Name">
+                    </div>
                 </div>
-                <div>
-                    <label for="L">Last Name</label>
-                    <input class="L" type="text" placeholder="your Last Name">
+                <div class="Email">
+                    <label for="E">Email</label>
+                    <input class="E" type="email" placeholder="your Email">
                 </div>
             </div>
-            <div class="Email">
-                <label for="E">Email</label>
-                <input class="E" type="email" placeholder="your Email">
+            <div class="right">
+                <label for="M">Message</label>
+                <!-- <input class="M" type="text" placeholder="Subject"> -->
+                <textarea id="M" cols="30" rows="10" placeholder="Subject"></textarea>
+            </div>
+
+        </div>
+        <div class="nmap">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247389.13439789083!2d107.6988268269479!3d14.343046888101457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x316bff3ec83864ed%3A0x38ea5406b5d91f3f!2sKon%20Tum%2C%20Vietnam!5e0!3m2!1sen!2sma!4v1670230362645!5m2!1sen!2sma"
+                width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="number">
+                <h5>Contact Us <a href="">+212 0601992205</a></h5>
+                <h5 class="h-email">email:hitakasushi@gmail.com</h5>
+                <h5 class="time">openning at 9am to 12pm</h5>
             </div>
         </div>
-        <div class="right">
-            <label for="M">Message</label>
-            <!-- <input class="M" type="text" placeholder="Subject"> -->
-            <textarea id="M" cols="30" rows="10" placeholder="Subject"></textarea>
-        </div>
-        
     </div>
-    <div class="number">
-        <h5>Contact Us <a href="">+212 0601992205</a></h5>
-    </div>
-    <div class="map">
-        <div style="width: 84%"><iframe width="80%" height="350" frameborder="0" scrolling="no" marginheight="0"
-                marginwidth="0"
-                src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=safi+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
-                    href="https://www.maps.ie/distance-area-calculator.html">measure acres/hectares on map</a></iframe>
-        </div>
-    </div>
+
+
     <footer id="footer" class="footer">
         <p>&copy;copyright 2022. designed and developed by <a href="https://www.Anas NAK.com/">AnasNAK</a></p>
     </footer>

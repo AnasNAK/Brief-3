@@ -16,6 +16,7 @@ body {
     background-image: linear-gradient(to right, rgb(40, 40, 39), rgb(0, 0, 0));
 }
 
+
 a {
     text-decoration: none;
     color: rgb(0, 0, 0);
@@ -23,6 +24,12 @@ a {
 
 .menu-icon {
     display: none;
+}
+.h-email{
+    text-align: start;
+}
+.time{
+    text-align: start;
 }
 
 .close {
@@ -35,11 +42,14 @@ a {
     left: 50%;
     position: absolute;
     top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-47%, -50%);
     font-weight: bolder;
     width: 40%;
     text-align: center;
     font-size: x-large;
+}
+.right,.Email,.full-name label {
+    font-weight: bolder;
 }
 
 .test {
@@ -51,11 +61,11 @@ a {
 
 
 .test .hero-img {
+    opacity: 50%;
     position: absolute;
     height: 100%;
     width: 100%
 }
-
 .title-1 {
     position: absolute;
     color: white;
@@ -82,10 +92,10 @@ h2 {
 }
 
 h2.contacts {
-    position: absolute;
+    /* position: absolute; */
     top: 25%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    /* transform: translate(-50%, -50%); */
 }
 
 
@@ -144,7 +154,7 @@ header {
 }
 
 footer {
-    padding: 50px;
+    padding: 30px;
     /* margin-top: 40px; */
     display: flex;
     justify-content: center;
@@ -154,6 +164,7 @@ footer {
 
 footer p {
     width: fit-content;
+    color: #000;
 }
 
 div.about {
@@ -167,7 +178,7 @@ div.about {
 div.about div.kitchen {
     display: flex;
     flex-direction: column;
-    height: 1083px;
+    height: 865px;
     justify-content: space-around;
     color: #fff;
 }
@@ -204,9 +215,10 @@ div.kitchen span {
 
 .fish img {
     width: 100%;
-    height: 100%;
+    height: 90%;
 
 }
+
 
 .fish {
     height: 700px;
@@ -218,10 +230,17 @@ div.kitchen span {
     align-items: flex-start;
     /* background-color: red; */
     justify-content: space-around;
-    gap: 5rem;
+    gap: 1rem;
     padding: 1rem 5rem;
-    position: absolute;
+    /* position: absolute; */
     top: 40%;
+    flex-direction: column;
+}
+.hack{
+    display:flex;
+    flex-direction: row ;
+    padding-bottom: 1rem;
+
 }
 
 .contact-form input,
@@ -234,10 +253,10 @@ textarea {
 }
 
 .map {
-    width: 80%;
+    width: 59%;
     position: absolute;
-    top: 70%;
-    left: 5%;
+    top: 40%;
+    left: 62%;
 }
 
 h5 {
@@ -279,7 +298,7 @@ h5 {
 }
 
 .contact-form .right textarea {
-    width: 20rem;
+    width: 232%;
 
 }
 
@@ -414,6 +433,7 @@ button {
     left: 71%;
     color: white;
     width: 21%;
+
 }
 
 .alll-plat {
@@ -453,9 +473,7 @@ button {
 }
 
 .number {
-    position: absolute;
-    top: 90%;
-    left: 70%;
+    text-align:start;
 }
 
 .total {
